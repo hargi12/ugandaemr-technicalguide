@@ -1,8 +1,8 @@
-# Setting up a Development Enviornment
+# Setting up a Development Environment
 
 ## Developer Prerequisites
 
-### Minium Computer Hardware and Software Requirements
+### Minimum Computer Hardware and Software Requirements
 
 The minimum requirements for a developer machine are:
 
@@ -33,7 +33,7 @@ The development environment leverages the [OpenMRS SDK](https://wiki.openmrs.org
 * Git 2.3.9
 * GitHub account
 * OpenMRS SDK - [https://wiki.openmrs.org/display/docs/OpenMRS+SDK](https://wiki.openmrs.org/display/docs/OpenMRS+SDK)
-* IDE - any that you are comfortable is supported, a recommendation is the free  [Intellij IDEA Community Edition](https://www.jetbrains.com/idea/download/#)
+* IDE - any that you are comfortable with is supported, a recommendation is the IntelliJ IDEA free version  [Intellij IDEA Community Edition](https://www.jetbrains.com/idea/download/#)
 
 ### Setting up a Server using the SDK
 
