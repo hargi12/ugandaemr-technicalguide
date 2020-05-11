@@ -1,9 +1,9 @@
 # Report Development Guidelines
 
 1. Fork the UgandaEMR Reports repository and clone the fork onto your computer 
-2. Open the ugandaemr reports module in your IDE.
+2. Open the UgandaEMR reports module in your favorite IDE.
 3. In the api module, go to org.openmrs.module.ugandaemrreports.reports package.
-4. This is where all reports are made. To create a new report copy and paste one of the existing report files and rename your file appropriately.
+4. This is where all reports are created. To create a new report, copy and paste one of the existing report files and rename your file appropriately.
 5. In the new file created, we need to change various values
    1. ```text
       return value of the getExcelDesignUuid() method. This should be a unique string, different from other report ids.
@@ -16,7 +16,7 @@
 8. Change the dataset name to be same as name of your report your working on also in the props.put\("repeatingSections","sheet:1,row:7,dataset: "REPORT\_NAME"\); this also is under the buildReportDesign method.
 9. In the constructReportDefinition\(\) change also the first parameter of the rd.addDataSetDefinition \(\) method to match dataset name in the previous step.
 10. Open the omod module of your project and open the ugandaemr\_reports\_app.json in the main &gt; resources &gt; apps folder.
-11. To that end of that file, we need to add a new object with following attribute values as shown below
+11. At the end of that file (step 10 above), we need to add a new object with following attribute values as shown below;
 
     ```text
     ,{
